@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=New+Amsterdam&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(https://u-static.fotor.com/images/text-to-image/result/PRO-f62c6551e2154d859f8af6b74acb5afc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+body::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+    font-family: "New Amsterdam", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+table{
+    font-family: "PT Serif", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    color: white;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}

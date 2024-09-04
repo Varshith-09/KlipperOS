@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+body {
+    background-image: url(https://u-static.fotor.com/images/text-to-image/result/PRO-f62c6551e2154d859f8af6b74acb5afc.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav-right a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "New Amsterdam", system-ui;
+    padding-left: 30px;
+}
+
+.info-klpr{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 90px;
+    font-family: "Quicksand", system-ui;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.info-klpr::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity to your liking */
+    z-index: -1;
+}
+
+h2{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button{
+    background-color:rgb(255, 255, 255);
+    border: none;
+    height: 39px;
+    width: 190px;
+}
+
+button:hover {
+    background-color: rgb(243, 243, 100);
+    transition: background-color 0.80s;
+    border: 1px solid rgb(50, 50, 50); /* add a dark border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle box shadow */
+}
+
+
